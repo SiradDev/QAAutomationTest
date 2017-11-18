@@ -1,0 +1,219 @@
+<html>
+<head>
+<title>TestNG:  smoketest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>smoketest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>28/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 17 10:55:15 CET 2017</td>
+</tr>
+<tr><td>Total time:</td><td>111 seconds (111448 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='smokeTest.AlertsTest.testAlertsStep1()'><b>testAlertsStep1</b><br>Test class: smokeTest.AlertsTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.AlertsTest@6b2fad11</td></tr>
+<tr>
+<td title='smokeTest.AlertsTest.testAlertsStep2()'><b>testAlertsStep2</b><br>Test class: smokeTest.AlertsTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.AlertsTest@6b2fad11</td></tr>
+<tr>
+<td title='smokeTest.AlertsTest.testAlertsStep3()'><b>testAlertsStep3</b><br>Test class: smokeTest.AlertsTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.AlertsTest@6b2fad11</td></tr>
+<tr>
+<td title='smokeTest.AlertsTest.testAlertsStep4()'><b>testAlertsStep4</b><br>Test class: smokeTest.AlertsTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.AlertsTest@6b2fad11</td></tr>
+<tr>
+<td title='smokeTest.AlertsTest.testAlertsStep5()'><b>testAlertsStep5</b><br>Test class: smokeTest.AlertsTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.AlertsTest@6b2fad11</td></tr>
+<tr>
+<td title='smokeTest.AlertsTest.testAlertsStep6()'><b>testAlertsStep6</b><br>Test class: smokeTest.AlertsTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.AlertsTest@6b2fad11</td></tr>
+<tr>
+<td title='smokeTest.DroppableTest.testDroppable()'><b>testDroppable</b><br>Test class: smokeTest.DroppableTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.DroppableTest@79b4d0f</td></tr>
+<tr>
+<td title='smokeTest.DatepickerTest.testFillDatePicker()'><b>testFillDatePicker</b><br>Test class: smokeTest.DatepickerTest</td>
+<td></td>
+<td>30</td>
+<td>smokeTest.DatepickerTest@73f792cf</td></tr>
+<tr>
+<td title='smokeTest.FillInLoginTest.testFillInLogin()'><b>testFillInLogin</b><br>Test class: smokeTest.FillInLoginTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.FillInLoginTest@79698539</td></tr>
+<tr>
+<td title='smokeTest.OpenLoginPopupTest.testOpenLoginPopup()'><b>testOpenLoginPopup</b><br>Test class: smokeTest.OpenLoginPopupTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.OpenLoginPopupTest@3fb6a447</td></tr>
+<tr>
+<td title='smokeTest.DatepickerTest.testSelTabAnimations()'><b>testSelTabAnimations</b><br>Test class: smokeTest.DatepickerTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.DatepickerTest@73f792cf</td></tr>
+<tr>
+<td title='smokeTest.DatepickerTest.testSelTabFormatDate()'><b>testSelTabFormatDate</b><br>Test class: smokeTest.DatepickerTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.DatepickerTest@73f792cf</td></tr>
+<tr>
+<td title='smokeTest.SelectAlertsTest.testSelectAlerts()'><b>testSelectAlerts</b><br>Test class: smokeTest.SelectAlertsTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.SelectAlertsTest@3796751b</td></tr>
+<tr>
+<td title='smokeTest.SelectDatepickerTest.testSelectDatepicker()'><b>testSelectDatepicker</b><br>Test class: smokeTest.SelectDatepickerTest</td>
+<td></td>
+<td>2</td>
+<td>smokeTest.SelectDatepickerTest@380fb434</td></tr>
+<tr>
+<td title='smokeTest.SelectDroppableTest.testSelectDroppable()'><b>testSelectDroppable</b><br>Test class: smokeTest.SelectDroppableTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.SelectDroppableTest@3cda1055</td></tr>
+<tr>
+<td title='smokeTest.SelectSliderTest.testSelectDroppable()'><b>testSelectDroppable</b><br>Test class: smokeTest.SelectSliderTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.SelectSliderTest@38082d64</td></tr>
+<tr>
+<td title='smokeTest.SelectSelectableTest.testSelectSelectable()'><b>testSelectSelectable</b><br>Test class: smokeTest.SelectSelectableTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.SelectSelectableTest@7a5d012c</td></tr>
+<tr>
+<td title='smokeTest.SelectableTest.testSelectableStep1()'><b>testSelectableStep1</b><br>Test class: smokeTest.SelectableTest</td>
+<td></td>
+<td>2</td>
+<td>smokeTest.SelectableTest@2ed94a8b</td></tr>
+<tr>
+<td title='smokeTest.SelectableTest.testSelectableStep2()'><b>testSelectableStep2</b><br>Test class: smokeTest.SelectableTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.SelectableTest@2ed94a8b</td></tr>
+<tr>
+<td title='smokeTest.SelectableTest.testSelectableStep3()'><b>testSelectableStep3</b><br>Test class: smokeTest.SelectableTest</td>
+<td></td>
+<td>3</td>
+<td>smokeTest.SelectableTest@2ed94a8b</td></tr>
+<tr>
+<td title='smokeTest.SelectableTest.testSelectableStep4()'><b>testSelectableStep4</b><br>Test class: smokeTest.SelectableTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.SelectableTest@2ed94a8b</td></tr>
+<tr>
+<td title='smokeTest.SelectableTest.testSelectableStep5()'><b>testSelectableStep5</b><br>Test class: smokeTest.SelectableTest</td>
+<td></td>
+<td>1</td>
+<td>smokeTest.SelectableTest@2ed94a8b</td></tr>
+<tr>
+<td title='smokeTest.DatepickerTest.testShowDatePicker()'><b>testShowDatePicker</b><br>Test class: smokeTest.DatepickerTest</td>
+<td></td>
+<td>1</td>
+<td>smokeTest.DatepickerTest@73f792cf</td></tr>
+<tr>
+<td title='smokeTest.SliderTest.testSlider()'><b>testSlider</b><br>Test class: smokeTest.SliderTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.SliderTest@668bc3d5</td></tr>
+<tr>
+<td title='smokeTest.DatepickerTest.testTabAnimationsCommands()'><b>testTabAnimationsCommands</b><br>Test class: smokeTest.DatepickerTest</td>
+<td></td>
+<td>33</td>
+<td>smokeTest.DatepickerTest@73f792cf</td></tr>
+<tr>
+<td title='smokeTest.DatepickerTest.testTabDisplayMonthAndYear()'><b>testTabDisplayMonthAndYear</b><br>Test class: smokeTest.DatepickerTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.DatepickerTest@73f792cf</td></tr>
+<tr>
+<td title='smokeTest.DatepickerTest.testTabDisplayMonthAndYearCommands()'><b>testTabDisplayMonthAndYearCommands</b><br>Test class: smokeTest.DatepickerTest</td>
+<td></td>
+<td>30</td>
+<td>smokeTest.DatepickerTest@73f792cf</td></tr>
+<tr>
+<td title='smokeTest.DatepickerTest.testTabFormatDateCommands()'><b>testTabFormatDateCommands</b><br>Test class: smokeTest.DatepickerTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.DatepickerTest@73f792cf</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [suite]">
+  <test name="smoketest(failed)">
+    <classes>
+      <class name="smokeTest.SmokeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="readFiles"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- smokeTest.SmokeTest -->
+      <class name="smokeTest.SecondTest">
+        <methods>
+          <include name="testSelectDatepicker"/>
+          <include name="readFiles"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- smokeTest.SecondTest -->
+    </classes>
+  </test> <!-- smoketest(failed) -->
+</suite> <!-- Failed suite [suite] -->

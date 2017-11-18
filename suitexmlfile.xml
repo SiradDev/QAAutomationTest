@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite" verbose="10">
+
+  <test name="smoketest" parallel="false">
+    <classes>
+        <class name="smokeTest.OpenLoginPopupTest"/>
+        <class name="smokeTest.FillInLoginTest"/>
+        <class name="smokeTest.SelectDatepickerTest"/>
+        <class name="smokeTest.DatepickerTest"/>
+        <class name="smokeTest.SelectSelectableTest"/>
+        <class name="smokeTest.SelectableTest"/>
+        <class name="smokeTest.SelectAlertsTest"/>
+        <class name="smokeTest.AlertsTest"/>
+        <class name="smokeTest.SelectDroppableTest"/>
+        <class name="smokeTest.DroppableTest"/>
+        <class name="smokeTest.SelectSliderTest"/>
+        <class name="smokeTest.SliderTest"/>
+    </classes>
+  </test>
+</suite>
